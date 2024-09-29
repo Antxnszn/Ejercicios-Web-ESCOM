@@ -1,0 +1,43 @@
+.font{
+    font-family: 'Roboto', sans-serif;
+    font-size: .7rem;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.cardtitles{
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.titles{
+    font-family: 'Roboto', sans-serif;
+    font-size: .85rem;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.divtitles{
+    display: flex;
+    justify-content: center;
+}
+.divformat {
+    display: flex;
+    flex-direction: row; /* Para organizar en fila */
+    justify-content: space-between; /* Para espaciar las tarjetas uniformemente */
+    align-items: flex-start; /* Para alinear verticalmente los elementos */
+    gap: 3rem; /* Espacio entre las columnas */
+  }
+  
+/*Iluminacion de tarjetas*/
+  .card-hover {
+    background-color: #A0A6AF;
+    color: #1c2f48b2;
+    transition: background-color 0.3s ease; /* Suaviza la transición */
+  }
+  
+  .card-hover:hover {
+    background-color: #abc7dc; /* Color del fondo al pasar el cursor */
+    color: #1C2F48;
+  }
+  
