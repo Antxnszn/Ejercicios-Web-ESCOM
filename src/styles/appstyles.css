@@ -4,30 +4,66 @@
     font-weight: lighter;
     text-decoration: none;
 }
+.mainbgdiv {
+  background-image: url('../../public/fondo1.jpg'); /* Asegúrate de que la ruta sea correcta */
+  background-color: lightgray; /* Color de fondo en caso de que la imagen no cargue */
+  background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  filter: blur(1.3px); /* Aplica el desenfoque */
+  width: 100%; /* Asegúrate de que ocupe todo el ancho disponible */
+  height: 400px; /* Altura deseada */
+  position: relative; /* Necesario para el posicionamiento absoluto del texto */
+}
+
+.text-container {
+  position: absolute; /* Permite que el texto esté encima del fondo desenfocado */
+  top: 35%; /* Centra verticalmente el texto */
+  left: 20%; /* Centra horizontalmente el texto */
+  transform: translate(-50%, -50%); /* Ajusta la posición para centrar */
+  color: #FFFFFF; /* Color del texto */
+ /* Asegúrate de que esté encima del fondo */
+  
+}
+
+.maintext {
+  color: #E3E3E6; /* Color del texto */
+  font-family: 'Roboto', sans-serif; /* Tipografía */
+  font-size: 60px; /* Tamaño de la fuente */
+  font-style: normal; /* Estilo de la fuente */
+  font-weight: lighter; /* Peso de la fuente */
+  text-align: left; /* Centra el texto horizontalmente */
+  line-height: normal; /* Altura de la línea */
+}
+.maintext2 {
+  color: #E3E3E6; /* Color del texto */
+  font-family: 'Roboto', sans-serif; /* Tipografía */
+  font-size: 40px; /* Tamaño de la fuente */
+  font-style: normal; /* Estilo de la fuente */
+  font-weight: lighter; /* Peso de la fuente */
+  text-align: left; /* Centra el texto horizontalmente */
+  line-height: normal; /* Altura de la línea */
+}
+
+
 .cardtitles{
     font-family: 'Roboto', sans-serif;
-    font-size: .8rem;
+    font-size: 2rem;
     font-weight: lighter;
     text-decoration: none;
 }
 
 .titles{
     font-family: 'Roboto', sans-serif;
-    font-size: .85rem;
+    font-size: 1.7rem;
     font-weight: lighter;
     text-decoration: none;
 }
 .divtitles{
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    margin-left: 5em;
 }
-.divformat {
-    display: flex;
-    flex-direction: row; /* Para organizar en fila */
-    justify-content: space-between; /* Para espaciar las tarjetas uniformemente */
-    align-items: flex-start; /* Para alinear verticalmente los elementos */
-    gap: 3rem; /* Espacio entre las columnas */
-  }
+
   
 /*Iluminacion de tarjetas*/
   .card-hover {

@@ -1,15 +1,15 @@
 .fonthead{
     font-family: 'Roboto', sans-serif;
-    font-size: .6rem;
+    font-size: 1rem;
     font-weight: bold;
     text-decoration: none;
-    margin-left: 3.5em;
+    margin-left: 1.5em;
 }
 
 .divformat{
     position: relative;
     display: flex;
-    justify-content:center;
+    justify-content:left;
     align-items: center;
-    padding: 0.5rem 2rem;
+    padding: 1rem 2rem;
 }
