@@ -1,11 +1,8 @@
-.font{
-    font-family: 'Roboto', sans-serif;
-    font-size: .7rem;
-    font-weight: lighter;
-    text-decoration: none;
-}
+
+
+
 .mainbgdiv {
-  background-image: url('../../public/fondo1.jpg'); /* Asegúrate de que la ruta sea correcta */
+  background-image: url('/fondo1.jpg'); /* Asegúrate de que la ruta sea correcta */
   background-color: lightgray; /* Color de fondo en caso de que la imagen no cargue */
   background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
   background-position: center; /* Centra la imagen */
@@ -44,6 +41,28 @@
   line-height: normal; /* Altura de la línea */
 }
 
+@media screen and (max-width: 1080px) {
+  .maintext {
+    font-size: 45px; /* Tamaño de la fuente */
+    text-align: center; /* Centrar el texto horizontalmente */
+  }
+
+  .maintext2 {
+    font-size: 35px; /* Tamaño de la fuente */
+    text-align: center; /* Centrar el texto horizontalmente */
+  }
+
+  .text-container {
+    position: absolute; /* Quita el posicionamiento absoluto */
+    display: flex;
+    flex-direction: column; /* Para que los textos se apilen verticalmente */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    text-align: center; /* Centrar el texto */
+    width: 100%; /* Asegúrate de que ocupe todo el ancho */
+    left: 50%;
+  }
+}
 
 .cardtitles{
     font-family: 'Roboto', sans-serif;
@@ -76,4 +95,4 @@
     background-color: #abc7dc; /* Color del fondo al pasar el cursor */
     color: #1C2F48;
   }
-  
+
